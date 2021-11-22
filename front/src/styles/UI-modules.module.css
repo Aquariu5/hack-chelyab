@@ -1,0 +1,241 @@
+.MenuButton {
+    background: greenyellow;
+    border: 2px solid;
+    width: 20vw;
+    font: 22px bold;
+    margin: 10px
+}
+.MenuButton:hover {
+    cursor: pointer;
+    background: green;
+    border-bottom: 6px solid honeydew ;
+}
+
+.LinkButton {
+    background: rgb(241, 241, 241);
+    border: 2px solid;
+    width: 5vw;
+    border-radius: 2vw;
+    font: 16px bold;
+    margin: 10px
+}
+.CloseButton {
+    background: darkred;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 30px;
+    font: 22px bold;
+    margin: 10px
+}
+.MusicButton {
+    background: royalblue;
+    border: 2px solid;
+    width: 20vw;
+    font: 22px bold;
+}
+
+.MusicButton:hover {
+    cursor: pointer;
+    background: slateblue;
+}
+
+.Alert {
+    background: wheat;
+    border-radius: 5%;
+    width: 20vw;
+    opacity: 0.5;
+}
+
+.AlertOff {
+    display: none;
+    background: wheat;
+    border-radius: 5%;
+    width: 20vw;
+    opacity: 0.5;
+}
+.LeftButton {
+	background: darkgoldenrod;
+	height: 10vh;
+	width: 10vw;
+    font: 20px bold;
+}
+
+.Dialog {
+    margin: 50px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid seagreen;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.DialogOff {
+    display: none;
+}
+
+.DialogBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: slategrey;
+}
+
+.DialogBar div {
+    display: flex;
+    width: 67.5vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.InputButton {
+    height: 60px;
+    margin-left: 10px;
+    margin-top: -10px;
+    width: 300px;
+    background-color: white;
+    border: 0px;
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.InputButtonWrong {
+    height: 40px;
+    margin-left: 10px;
+    margin-top: -10px;
+    width: 200px;
+    background-color: white;
+    border: 0px;
+    font-size: 14px;
+    border: 2px solid red;
+    
+}
+
+.InputButton:hover {
+    cursor: pointer;
+}
+
+.LeftButton:hover {
+    cursor: pointer;
+    background: darkorange;
+}
+
+.Input {
+    height: 25px;
+    width: 200px;
+    display: flex;
+    border: 2px solid aqua;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.InputWrong {
+    height: 25px;
+    
+    display: flex;
+    border: 2px solid aqua;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid red;
+}
+.Select {
+    font-size: 16px;
+    border: 2px solid aqua;
+    width: 200px ;
+    margin: 10px;
+
+
+}
+
+.SuccessNo {
+    display: none;
+}
+
+.Success {
+    display: block;
+    background-color: rgba(255,255,255, 0.5);
+}
+
+.TableHeader{
+    background-color: rgb(158, 186, 230)
+}
+.Table {
+    width: 90vw;
+    margin-top: 20px;
+}
+
+.TableModal {
+    width: 50vw;
+    margin-top: 20px;
+}
+
+.TableModal header{
+    text-align: center;
+    font-size: 20px;
+    height: 40px;
+    background-color: rosybrown;
+}
+
+.TableModal  td{
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    background-color: cadetblue;
+    
+}
+
+.Table header{
+    text-align: center;
+    font-size: 20px;
+    height: 40px;
+    background-color: rosybrown;
+}
+
+.Table  td{
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    background-color: cadetblue;
+    
+}
+.NotImage{
+    display: none;
+}
+
+.Image {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    position: absolute;
+
+}
+
+.BaseForm {
+	text-align: center;
+	border: 2px solid white;
+    width: 60vw;
+    margin: auto;
+    background: rgb(201, 183, 152);
+}
+/* .Select {
+    height: 10px;
+    display: flex;
+    border: 2px solid aqua;
+    margin: 10px;
+    padding: 10px;
+
+} */
+
+.AuthButton {
+    background: rgb(82, 61, 197);
+    border: 2px solid;
+    font: 22px bold;
+}
+
+.AuthButton:hover {
+    cursor: pointer;
+    background: rgb(158, 186, 230);
+    border-bottom: 3px solid honeydew ;
+}
+

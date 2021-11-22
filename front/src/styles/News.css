@@ -1,0 +1,14 @@
+.News {
+    display: flex;
+    background: #eafdec;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+
+.New {
+    font: 22px solid;
+    color: white;
+    margin: 20px;
+}

@@ -1,0 +1,45 @@
+.Auth {
+    background: brown;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    flex-direction: column;
+    font: 22px bold;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.Wrong {
+  background: white;
+  opacity: 0.5;
+  margin-top: 15px;
+  background-color: coral;
+  width: 200px;
+  font-size: 20px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid sienna;
+}
+
+.WrongNone {
+  display: none;
+}
+
+.Forma {
+  display: flex;
+  flex-direction: column;
+  background-color: tan;
+  height: 100vh;
+
+}
+
+.Operator {
+  display: flex;
+  flex-direction: column;
+  background-color: tan;
+  height: 100vh;
+
+}

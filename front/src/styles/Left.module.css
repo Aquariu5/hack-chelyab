@@ -1,0 +1,42 @@
+
+.Left {
+	height: 90vh;
+	width: 10vw;
+	display: flex;
+	flex-direction: column;
+	min-width: 10vw;
+	background: purple
+}
+
+.disable {
+	height: 90vh;
+	display: none;
+	width: 0vw;
+	background: purple
+}
+
+.Calendar {
+	border: 2px dashed red;
+	background-color: skyblue;
+	margin: 5px;
+	padding: 10px;
+	min-width: 10vw;
+}
+
+.Logo {
+	border: 2px dashed red;
+	background-color: springgreen;
+	margin: 5px;
+	padding: 10px;
+	animation: roll infinite 5s;
+}
+
+
+@keyframes roll {
+	from {
+		transform: rotateY(0deg);
+	}
+	to {
+		transform: rotateY(360deg);
+	}
+}

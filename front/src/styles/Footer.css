@@ -1,0 +1,9 @@
+.Footer {
+    background: brown;
+    display: flex;
+    height: 10vh;
+    justify-content: left;
+    font: 22px bold;
+    align-items: center;
+    padding-left: 10px;
+  }

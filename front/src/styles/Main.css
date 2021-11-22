@@ -1,0 +1,10 @@
+.Main {
+	height: 80vh;
+	display: flex;
+	background: blue
+}
+
+.MainAuth {
+	height: 90vh;
+	background: blue
+}
